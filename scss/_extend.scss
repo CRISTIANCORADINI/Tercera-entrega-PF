@@ -1,0 +1,12 @@
+// EXTEND //
+
+.subtitulo {
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+.subtituloDos {
+    background-color: blue;
+    @extend .subtitulo;
+}

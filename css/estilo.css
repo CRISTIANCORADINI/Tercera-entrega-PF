@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 2rem;
+  font-family: "Bebas Neue";
+  background-color: black; }
+
+body header {
+  background-color: black;
+  height: 50vw;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  grid-area: header; }
+  body header .logo {
+    padding-top: 5rem;
+    color: white;
+    font-weight: 10rem;
+    height: 50rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; }
+    body header .logo h1 {
+      font-size: 20rem; }
+  body header nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 90vh;
+    grid-area: nav; }
+    body header nav ul li {
+      list-style: none;
+      display: inline-block;
+      margin: 1rem 3rem;
+      transition: font-size 1s;
+      transition: opacity .005s; }
+      body header nav ul li:hover {
+        font-size: 2.5rem;
+        opacity: 50%; }
+      body header nav ul li a {
+        text-decoration: none;
+        color: black; }
+
+body .principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15rem; }
+  body .principal section {
+    background-color: white;
+    border: black solid 2px;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    height: 400px; }
+  body .principal .sectionA p {
+    margin: 50px 5px 5px 5px;
+    width: 400px;
+    height: 400px;
+    padding-right: 1rem; }
+  body .principal .sectionB img {
+    width: 396px;
+    height: 400px; }
+  body .principal .sectionD {
+    transition: rotate .5s; }
+    body .principal .sectionD:hover {
+      rotate: -5deg; }
+    body .principal .sectionD h2 {
+      font-size: 10rem;
+      text-align: center;
+      margin-top: 20vh; }
+      body .principal .sectionD h2 a {
+        text-decoration: none;
+        color: black;
+        transition: font-size 1s;
+        transition: opacity .005s; }
+        body .principal .sectionD h2 a:hover {
+          opacity: 80%; }
+
+body .subtitulo, body .subtituloDos {
+  text-align: center;
+  color: white;
+  display: inline-block; }
+
+body .subtituloDos {
+  background-color: blue; }
+
+body .formContacto {
+  padding: 15rem 0rem 25rem 18rem; }
+  body .formContacto .form {
+    color: white;
+    font-weight: none; }
+
+body .imgCarousel {
+  margin-top: 10rem;
+  margin-bottom: 15rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  height: 450px;
+  object-fit: cover; }
+
+body main h2 {
+  text-align: center;
+  background-color: white;
+  width: 20rem;
+  height: 5rem;
+  margin-left: 0rem;
+  padding-top: 1.5rem; }
+
+body main p {
+  background-color: white;
+  width: 400px;
+  height: 55rem;
+  padding: 1rem;
+  text-align: center;
+  padding-top: 2rem; }
+
+body main img {
+  min-width: 400px;
+  object-fit: cover;
+  height: 60rem; }
+
+body main .imgProductos {
+  padding: 0rem 2rem 2rem 3rem;
+  height: 52rem;
+  width: auto;
+  object-fit: cover; }
+
+body footer {
+  padding-top: 1rem;
+  text-align: center;
+  grid-area: footer; }
+  body footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    body footer ul li {
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      background-color: white;
+      border: 2px solid black;
+      margin-bottom: 5rem;
+      transition: rotate 0.5s; }
+      body footer ul li:hover {
+        rotate: -5deg; }
+      body footer ul li a {
+        display: inline-block;
+        margin-top: 40%; }
+
+/* INICIO */
+@media (max-width: 992px) {
+  h1 {
+    font-size: 10rem; } }
+
+@media (max-width: 720px) {
+  h1 {
+    font-size: 7rem; }
+  /* p {
+        font-size: 1.8rem;
+        
+        
+    } */ }
+
+@media (max-width: 618px) {
+  h1 {
+    font-size: 5rem; }
+  .logo p {
+    text: none; } }
+
+@media (max-width: 522px) {
+  h1 {
+    font-size: 3rem; } }

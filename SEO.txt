@@ -1,0 +1,13 @@
+
+Aplicando SEO a mi proyecto.
+
+-Lo primero que hice fue indicar títulos específicos para cada página que correspondan al título de mi sitio web.
+Por ejemplo en el index: Title Burguesa|Inicio.
+
+-Agregué una etiqueta meta. Haciendo una descrpción diferente en cada página de mi sitio web.
+
+-Las carpetas quedaron ordenadas por similitud de contenidos. Ej.: La carpeta scss continene todos los archivos .scss de mi proyecto.
+
+-Agregué atributo alt a mis imágenes.
+
+-Sitio responsive.

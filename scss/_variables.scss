@@ -1,0 +1,12 @@
+$color-principal: black;
+
+
+//MAPS// 
+
+$estilo: (fuente: 'Bebas Neue', tamFuente: 2rem, color: $color-principal);
+
+body {
+    font-size: map-get($estilo, tamFuente );
+    font-family: map-get($estilo, fuente );
+    background-color: map-get($estilo, color );
+}

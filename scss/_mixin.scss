@@ -1,0 +1,13 @@
+// MIXIN //
+
+@mixin img {
+        margin-top: 10rem;
+        margin-bottom: 15rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        height: 450px;
+        object-fit: cover;
+}
+.imgCarousel {
+    @include img;
+}
